@@ -1,0 +1,55 @@
+===== app_log_1.log =====
+2025-05-21 06:49:00.306 EXCEPTION OCCURRED:
+org.springframework.dao.DataAccessException: Failed to access DB
+	at com.repo.UserRepository.save(UserRepository.java:88)
+	at com.service.UserService.addUser(UserService.java:45)
+	at com.example.Main.main(Main.java:22)
+
+2025-05-21 06:49:55.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 06:50:12.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 06:51:05.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 06:51:35.306 INFO: Document uploaded by user.
+2025-05-21 06:52:35.306 INFO: Document uploaded by user.
+2025-05-21 06:52:58.306 INFO: Email sent successfully.
+2025-05-21 06:53:29.306 INFO: Operation completed successfully.
+2025-05-21 06:53:54.306 DEBUG: Processed request and sent 200 OK.
+a.base/java.util.Thread.run(Thread.java:829)
+
+2025-05-21 06:55:07.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 06:56:02.306 INFO: Operation completed successfully.
+2025-05-21 06:56:51.306 INFO: Document uploaded by user.
+2025-05-21 06:57:30.306 INFO: Document uploaded by user.
+2025-05-21 06:57:52.306 INFO: Operation completed successfully.
+2025-05-21 06:58:15.306 EXCEPTION OCCURRED:
+
+
+2025-05-21 07:03:00.306 INFO: Operation completed successfully.
+2025-05-21 07:03:25.306 INFO: Email sent successfully.
+2025-05-21 07:04:19.306 DEBUG: Completed without error.
+2025-05-21 07:04:25.306 INFO: Document uploaded by user.
+2025-05-21 07:05:13.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 07:06:08.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 07:07:07.306 INFO: Email sent successfully.
+
+
+===== app_log_10.log =====
+2025-05-12 06:49:00.306 INFO: Operation completed successfully.
+2025-05-12 06:49:20.306 DEBUG: Processed request and sent 200 OK.
+2025-05-12 06:50:15.306 EXCEPTION OCCURRED:
+
+===== app_log_2.log =====
+2025-05-20 06:49:00.306 INFO: Document uploaded by user.
+2025-05-20 06:49:28.306 INFO: Operation completed successfully.
+2025-05-20 06:49:53.306 DEBUG: Completed without error.
+2025-05-20 06:50:38.306 DEBUG: Processed request and sent 200 OK.
+2025-05-20 06:50:51.306 INFO: Document uploaded by user.
+2025-05-20 06:51:02.306 INFO: Operation completed successfully.
+2025-05-20 06:51:15.306 DEBUG: Completed without error.
+2025-05-20 06:51:33.306 DEBUG: Completed without error.
+2025-05-20 06:52:13.306 INFO: Operation completed successfully.
+2025-05-20 06:52:21.306 DEBUG: Processed request and sent 200 OK.
+2025-05-20 06:52:48.306 INFO: Operation completed successfully.
+2025-05-20 06:53:03.306 INFO: Operation completed successfully.
+2025-05-20 06:54:03.306 INFO: Document uploaded by user.
+2025-05-20 06:54:51.306 DEBUG: Processed request and sent 200 OK.
+2025-05-20 06:55:15.306 EXCEPTION OCCURRED:

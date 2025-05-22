@@ -1,0 +1,221 @@
+===== app_log_1.log =====
+2025-05-21 06:49:00.306 EXCEPTION OCCURRED:
+org.springframework.dao.DataAccessException: Failed to access DB
+	at com.repo.UserRepository.save(UserRepository.java:88)
+	at com.service.UserService.addUser(UserService.java:45)
+	at com.example.Main.main(Main.java:22)
+
+2025-05-21 06:49:55.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 06:50:12.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 06:51:05.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 06:51:35.306 INFO: Document uploaded by user.
+2025-05-21 06:52:35.306 INFO: Document uploaded by user.
+2025-05-21 06:52:58.306 INFO: Email sent successfully.
+2025-05-21 06:53:29.306 INFO: Operation completed successfully.
+2025-05-21 06:53:54.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 06:54:39.306 EXCEPTION OCCURRED:
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "obj" is null
+	at com.example.Main.process(Main.java:42)
+	at com.example.Main.run(Main.java:35)
+	at java.base/java.util.Thread.run(Thread.java:829)
+
+2025-05-21 06:55:07.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 06:56:02.306 INFO: Operation completed successfully.
+2025-05-21 06:56:51.306 INFO: Document uploaded by user.
+2025-05-21 06:57:30.306 INFO: Document uploaded by user.
+2025-05-21 06:57:52.306 INFO: Operation completed successfully.
+2025-05-21 06:58:15.306 EXCEPTION OCCURRED:
+ExpiredJwtException: JWT expired at 2025-05-10T10:00:00Z. Current time: 2025-05-22T10:00:00Z.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at com.auth.JwtVerifier.verify(JwtVerifier.java:67)
+	at com.middleware.Filter.doFilter(Filter.java:110)
+
+2025-05-21 06:59:02.306 INFO: Operation completed successfully.
+2025-05-21 06:59:33.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 07:00:03.306 DEBUG: Completed without error.
+2025-05-21 07:00:30.306 INFO: Email sent successfully.
+2025-05-21 07:00:48.306 INFO: Operation completed successfully.
+2025-05-21 07:01:35.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 07:02:16.306 EXCEPTION OCCURRED:
+ExpiredJwtException: JWT expired at 2025-05-10T10:00:00Z. Current time: 2025-05-22T10:00:00Z.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at com.auth.JwtVerifier.verify(JwtVerifier.java:67)
+	at com.middleware.Filter.doFilter(Filter.java:110)
+
+2025-05-21 07:03:00.306 INFO: Operation completed successfully.
+2025-05-21 07:03:25.306 INFO: Email sent successfully.
+2025-05-21 07:04:19.306 DEBUG: Completed without error.
+2025-05-21 07:04:25.306 INFO: Document uploaded by user.
+2025-05-21 07:05:13.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 07:06:08.306 DEBUG: Processed request and sent 200 OK.
+2025-05-21 07:07:07.306 INFO: Email sent successfully.
+
+
+===== app_log_10.log =====
+2025-05-12 06:49:00.306 INFO: Operation completed successfully.
+2025-05-12 06:49:20.306 DEBUG: Processed request and sent 200 OK.
+2025-05-12 06:50:15.306 EXCEPTION OCCURRED:
+ExpiredJwtException: JWT expired at 2025-05-10T10:00:00Z. Current time: 2025-05-22T10:00:00Z.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at com.auth.JwtVerifier.verify(JwtVerifier.java:67)
+	at com.middleware.Filter.doFilter(Filter.java:110)
+
+2025-05-12 06:50:45.306 INFO: Email sent successfully.
+2025-05-12 06:51:04.306 EXCEPTION OCCURRED:
+ExpiredJwtException: JWT expired at 2025-05-10T10:00:00Z. Current time: 2025-05-22T10:00:00Z.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at com.auth.JwtVerifier.verify(JwtVerifier.java:67)
+	at com.middleware.Filter.doFilter(Filter.java:110)
+
+2025-05-12 06:51:48.306 INFO: Operation completed successfully.
+2025-05-12 06:52:03.306 EXCEPTION OCCURRED:
+ExpiredJwtException: JWT expired at 2025-05-10T10:00:00Z. Current time: 2025-05-22T10:00:00Z.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at com.auth.JwtVerifier.verify(JwtVerifier.java:67)
+	at com.middleware.Filter.doFilter(Filter.java:110)
+
+2025-05-12 06:52:26.306 INFO: Operation completed successfully.
+2025-05-12 06:52:37.306 INFO: Operation completed successfully.
+2025-05-12 06:53:30.306 EXCEPTION OCCURRED:
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "obj" is null
+	at com.example.Main.process(Main.java:42)
+	at com.example.Main.run(Main.java:35)
+	at java.base/java.util.Thread.run(Thread.java:829)
+
+2025-05-12 06:54:06.306 EXCEPTION OCCURRED:
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "obj" is null
+	at com.example.Main.process(Main.java:42)
+	at com.example.Main.run(Main.java:35)
+	at java.base/java.util.Thread.run(Thread.java:829)
+
+2025-05-12 06:54:43.306 DEBUG: Processed request and sent 200 OK.
+2025-05-12 06:55:34.306 INFO: Document uploaded by user.
+2025-05-12 06:55:48.306 DEBUG: Completed without error.
+2025-05-12 06:56:13.306 INFO: Document uploaded by user.
+2025-05-12 06:57:12.306 INFO: Document uploaded by user.
+2025-05-12 06:57:45.306 DEBUG: Completed without error.
+2025-05-12 06:58:39.306 INFO: Operation completed successfully.
+2025-05-12 06:59:37.306 INFO: Operation completed successfully.
+2025-05-12 07:00:23.306 INFO: Document uploaded by user.
+2025-05-12 07:01:14.306 INFO: Email sent successfully.
+2025-05-12 07:01:57.306 INFO: Email sent successfully.
+2025-05-12 07:02:56.306 INFO: Operation completed successfully.
+2025-05-12 07:03:07.306 INFO: Operation completed successfully.
+2025-05-12 07:03:36.306 INFO: Email sent successfully.
+2025-05-12 07:04:06.306 INFO: Operation completed successfully.
+2025-05-12 07:04:28.306 DEBUG: Completed without error.
+2025-05-12 07:04:48.306 EXCEPTION OCCURRED:
+ExpiredJwtException: JWT expired at 2025-05-10T10:00:00Z. Current time: 2025-05-22T10:00:00Z.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at com.auth.JwtVerifier.verify(JwtVerifier.java:67)
+	at com.middleware.Filter.doFilter(Filter.java:110)
+
+2025-05-12 07:05:21.306 EXCEPTION OCCURRED:
+org.springframework.dao.DataAccessException: Failed to access DB
+	at com.repo.UserRepository.save(UserRepository.java:88)
+	at com.service.UserService.addUser(UserService.java:45)
+	at com.example.Main.main(Main.java:22)
+
+2025-05-12 07:05:29.306 DEBUG: Completed without error.
+
+
+===== app_log_2.log =====
+2025-05-20 06:49:00.306 INFO: Document uploaded by user.
+2025-05-20 06:49:28.306 INFO: Operation completed successfully.
+2025-05-20 06:49:53.306 DEBUG: Completed without error.
+2025-05-20 06:50:38.306 DEBUG: Processed request and sent 200 OK.
+2025-05-20 06:50:51.306 INFO: Document uploaded by user.
+2025-05-20 06:51:02.306 INFO: Operation completed successfully.
+2025-05-20 06:51:15.306 DEBUG: Completed without error.
+2025-05-20 06:51:33.306 DEBUG: Completed without error.
+2025-05-20 06:52:13.306 INFO: Operation completed successfully.
+2025-05-20 06:52:21.306 DEBUG: Processed request and sent 200 OK.
+2025-05-20 06:52:48.306 INFO: Operation completed successfully.
+2025-05-20 06:53:03.306 INFO: Operation completed successfully.
+2025-05-20 06:54:03.306 INFO: Document uploaded by user.
+2025-05-20 06:54:51.306 DEBUG: Processed request and sent 200 OK.
+2025-05-20 06:55:15.306 EXCEPTION OCCURRED:
+org.springframework.dao.DataAccessException: Failed to access DB
+	at com.repo.UserRepository.save(UserRepository.java:88)
+	at com.service.UserService.addUser(UserService.java:45)
+	at com.example.Main.main(Main.java:22)
+
+2025-05-20 06:56:15.306 INFO: Document uploaded by user.
+2025-05-20 06:56:57.306 INFO: Document uploaded by user.
+2025-05-20 06:57:32.306 INFO: Operation completed successfully.
+2025-05-20 06:57:48.306 DEBUG: Completed without error.
+2025-05-20 06:58:09.306 INFO: Operation completed successfully.
+2025-05-20 06:58:44.306 EXCEPTION OCCURRED:
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "obj" is null
+	at com.example.Main.process(Main.java:42)
+	at com.example.Main.run(Main.java:35)
+	at java.base/java.util.Thread.run(Thread.java:829)
+
+2025-05-20 06:59:21.306 INFO: Operation completed successfully.
+2025-05-20 06:59:44.306 EXCEPTION OCCURRED:
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "obj" is null
+	at com.example.Main.process(Main.java:42)
+	at com.example.Main.run(Main.java:35)
+	at java.base/java.util.Thread.run(Thread.java:829)
+
+2025-05-20 07:00:29.306 INFO: Operation completed successfully.
+2025-05-20 07:00:51.306 INFO: Document uploaded by user.
+2025-05-20 07:00:57.306 INFO: Email sent successfully.
+2025-05-20 07:01:35.306 EXCEPTION OCCURRED:
+org.springframework.dao.DataAccessException: Failed to access DB
+	at com.repo.UserRepository.save(UserRepository.java:88)
+	at com.service.UserService.addUser(UserService.java:45)
+	at com.example.Main.main(Main.java:22)
+
+2025-05-20 07:01:55.306 EXCEPTION OCCURRED:
+org.springframework.dao.DataAccessException: Failed to access DB
+	at com.repo.UserRepository.save(UserRepository.java:88)
+	at com.service.UserService.addUser(UserService.java:45)
+	at com.example.Main.main(Main.java:22)
+
+2025-05-20 07:02:32.306 EXCEPTION OCCURRED:
+org.springframework.dao.DataAccessException: Failed to access DB
+	at com.repo.UserRepository.save(UserRepository.java:88)
+	at com.service.UserService.addUser(UserService.java:45)
+	at com.example.Main.main(Main.java:22)
+
+2025-05-20 07:03:01.306 DEBUG: Completed without error.
+
+
+===== app_log_3.log =====
+2025-05-19 06:49:00.306 DEBUG: Processed request and sent 200 OK.
+2025-05-19 06:49:58.306 DEBUG: Completed without error.
+2025-05-19 06:50:58.306 DEBUG: Completed without error.
+2025-05-19 06:51:33.306 DEBUG: Processed request and sent 200 OK.
+2025-05-19 06:51:45.306 DEBUG: Processed request and sent 200 OK.
+2025-05-19 06:52:14.306 INFO: Document uploaded by user.
+2025-05-19 06:53:02.306 EXCEPTION OCCURRED:
+org.springframework.dao.DataAccessException: Failed to access DB
+	at com.repo.UserRepository.save(UserRepository.java:88)
+	at com.service.UserService.addUser(UserService.java:45)
+	at com.example.Main.main(Main.java:22)
+
+2025-05-19 06:53:57.306 DEBUG: Completed without error.
+2025-05-19 06:54:53.306 DEBUG: Completed without error.
+2025-05-19 06:55:32.306 INFO: Operation completed successfully.
+2025-05-19 06:55:47.306 INFO: Email sent successfully.
+2025-05-19 06:56:06.306 INFO: Document uploaded by user.
+2025-05-19 06:57:02.306 INFO: Operation completed successfully.
+2025-05-19 06:57:33.306 INFO: Document uploaded by user.
+2025-05-19 06:58:00.306 DEBUG: Completed without error.
+2025-05-19 06:58:39.306 DEBUG: Processed request and sent 200 OK.
+2025-05-19 06:59:20.306 INFO: Document uploaded by user.
+2025-05-19 06:59:44.306 EXCEPTION OCCURRED:
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "obj" is null
+	at com.example.Main.process(Main.java:42)
+	at com.example.Main.run(Main.java:35)
+	at java.base/java.util.Thread.run(Thread.java:829)
+
+2025-05-19 07:00:03.306 EXCEPTION OCCURRED:
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because "obj" is null
+	at com.example.Main.process(Main.java:42)
+	at com.example.Main.run(Main.java:35)
+	at java.base/java.util.Thread.run(Thread.java:829)
+
+
+
