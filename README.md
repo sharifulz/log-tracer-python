@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Log Exception Extractor
 
@@ -155,6 +154,4 @@ if __name__ == "__main__":
 ## 🤝 Contributing
 
 Pull requests welcome! For major changes, please open an issue first to discuss.
-=======
-# log-tracer-python
->>>>>>> parent of 483f066 (use python to analyse log file)
+
