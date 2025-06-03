@@ -3,19 +3,23 @@ import sys
 def extract_exceptions(file_path):
     exceptions = []
     try:
-        with open(file_path, 'r') as f:
+        with open(file_path, encoding='utf-8', errors='ignore') as f:
             lines = f.readlines()
 
         i = 0
         while i < len(lines):
-            if 'Exception' in lines[i]:
+            if any(keyword in lines[i] for keyword in [
+                'GenericJDBCException', 
+                'SQLGrammarException',
+                'ConstraintViolationException'
+            ]):
                 # Start of exception
                 exception_start = i
                 exception_type = lines[i].strip()
                 details = []
 
-                # Collect up to 20 lines of the exception details
-                for j in range(i, min(i + 20, len(lines))):
+                # Collect up to 60 lines of the exception details
+                for j in range(i, min(i + 60, len(lines))):
                     details.append(lines[j].rstrip())
                     if lines[j].strip() == "":
                         break
@@ -26,6 +30,7 @@ def extract_exceptions(file_path):
     except FileNotFoundError:
         print(f"File not found: {file_path}")
     return exceptions
+
 
 def generate_report(exceptions, output_file="log_report_file.txt"):
     with open(output_file, 'w') as f:
